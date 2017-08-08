@@ -13,4 +13,7 @@ AppRegistry.registerComponent("AwesomeProject",() => AwesomeProject);
 #### 4.输入命令 kill -9 <PID>，目的是删除对应的 PID 的占用，这个 <PID> 在第三部的指令中可以看到。
 #### 5.删除所有端口然后执行 react-native run-xxx (android或ios) 重启项目就OK。
 
-
+#### 2. The development server returned response error code: 500 in react-native
+#### 1.rm -rf node_modules && npm install 
+#### 2.rm -fr $ TMPDIR / react- *或node_modules / react-native / packager / packager.sh --reset-cache
+下次碰到用这个代码测试，希望解决 500 错误
